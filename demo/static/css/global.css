@@ -1,0 +1,43 @@
+#story p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px 0px 10px 10px;
+    text-align: justify;
+    width: 575px;
+}
+
+#photo {
+    border: 1px solid #cccccc;
+    height: 383px;
+    margin: 0 10px 10px 7px;
+    width: 575px;
+}
+
+.cutline {
+    background: #000000;
+    color: #cccccc;
+    height: 55px;
+    padding: 10px;
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+}
+
+.cutline h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0px 5px 5px 0px;
+}
+
+.cutline p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.unstyled-content #cutline {
+    display: none;
+}
